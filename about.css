@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+body {
+    background: rgba(243, 215, 183, 1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.p-boss {
+    display: flex;
+    gap: 50px;
+    font-size: 22px;
+}
+
+.imlo-boss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {}
+
+h1 {
+    font-size: 40px;
+}
+
+.left-kamronkal {
+    display: flex;
+    align-items: start;
+
+    flex-direction: column;
+    width: 460px;
+}
+
+.about-bashara {
+    top: 100px;
+    right: 100px;
+    position: relative;
+}
+
+.rotatelogo {
+    animation-name: logo;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    transform: rotate(0deg);
+    animation-iteration-count: infinite;
+    top: 120px;
+    right: 650px;
+
+}
+
+@keyframes logo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main-right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 460px;
+}
+
+.imlo-goss {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotermain {
+    display: flex;
+    justify-content: space-between;
+    padding: 68px;
+    align-items: center;
+}
+footer{
+        background: #F3D7B7;
+}
+.ul-gli{
+    display: flex;
+        gap: 40px;
+}
